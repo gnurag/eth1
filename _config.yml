@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+
+# Plugins
+plugins:          [jekyll-paginate, jekyll-gist]
+
+# Permalinks
+permalink:        /:title
+
+# Setup
+title:            Eth1
+tagline:          'Sysmgmt notes'
+description:      'Notes on operating systems, configuration and network management.'
+url:              https://eth1.org
+baseurl:          /
+
+author:
+  name:           'Anurag'
+  url:            https://twitter.com/gnurag
+
+paginate:         5
+
+# Custom vars
+version:          0.1
+
+github:
+  repo:           https://github.com/gnurag/eth1
